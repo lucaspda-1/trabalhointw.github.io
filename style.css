@@ -2,11 +2,14 @@ body {
 	font-family: Arial, sans-serif;
 	margin: 0;
 	padding: 0;
+    background-image: url("acerta.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header {
-	background-color: #df0a0a;
-	color: #fff;
+	background-color: rgb(167, 38, 184);
+	color: #42e493;
 	padding: 20px;
 }
 
@@ -22,23 +25,24 @@ nav li {
 }
 
 nav a {
-	color: #fff;
+	color: #f8f3f3;
 	text-decoration: none;
 }
 
 nav a:hover {
-	color: #ff0;
+	color: rgb(14, 14, 11);
 }
 
 main {
 	padding: 20px;
 	max-width: 800px;
 	margin: 0 auto;
+    color: rgb(0, 0, 0);
 }
 
 footer {
 	background-color: #ccc;
-	color: #333;
+	color: #5241419f;
 	padding: 10px;
 	text-align: center;
 }
@@ -88,7 +92,7 @@ div.box label {
 
 div.box label span {
     display: block;
-    color:#bbbbbb;
+    color:#fff9f9;
     font-size:12px;
     float:left;
     width:100px;
@@ -99,7 +103,7 @@ div.box label span {
 div.box .input_text {
     padding:10px 10px;
     width:200px;
-    background: whitesmoke;
+    background: rgb(167, 38, 184);
     border-bottom: 1px double #171717;
     border-top: 1px double #171717;
     border-left:1px double #333333;
@@ -109,7 +113,7 @@ div.box .input_text {
 div.box .message{
     padding:7px 7px;
     width:350px;
-    background: whitesmoke;
+    background: rgb(167, 38, 184);
     border-bottom: 1px double #171717;
     border-top: 1px double #171717;
     border-left:1px double #333333;
@@ -121,14 +125,14 @@ div.box .message{
 div.box .button{
     margin:0 0 10px 0;
     padding:4px 7px;
-    background:#CC0000;
+    background:rgb(167, 38, 184);
     border:0px;
     position: relative;
     top:10px;
     left:382px;
     width:100px;
-    border-bottom: 1px double #660000;
-    border-top: 1px double #660000;
-    border-left:1px double #FF0033;
-    border-right:1px double #FF0033;
+    border-bottom: 1px double #0a0707;
+    border-top: 1px double #080606;
+    border-left:1px double #080606;
+    border-right:1px double #0a0708;
 }
